@@ -13,7 +13,8 @@ a {
     color: #e5e7eb;
 }
 
-/* HEADER */
+/* Navigation */
+
 .navbar {
     display: flex;
     background-color: #1f2937;
@@ -38,14 +39,19 @@ h1 {
     font-size: 18px;
 }
 
+/* Hero */
+/* IN progress. Trying to get image to the side of content. */
+
 .hero {
+    display: flex;
     background-color: #1f2937;
-    height: 25vh;
+    padding: 0 136px 0 136px;
+    /* align-items: center; */
+    height: 30vh;
+    padding-bottom: 100px;
 }
 
 .hero__container {
-    /* display: flex; */
-    /* margin: 24px; */
     padding: 24px;
     max-width: 600px;
 
@@ -70,4 +76,15 @@ h1 {
     border: none;
     border-radius: 5px;
     padding: 4px 18px;
+}
+
+.hero__img--wrapper {
+    width: 500px;
+    /* margin-left: 300px; */
+    /* margin-right: auto; */
+}
+
+.hero__img {
+    width: 100%;
+    height: auto;
 }
