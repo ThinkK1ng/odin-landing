@@ -40,4 +40,34 @@ h1 {
 
 .hero {
     background-color: #1f2937;
+    height: 25vh;
+}
+
+.hero__container {
+    /* display: flex; */
+    /* margin: 24px; */
+    padding: 24px;
+    max-width: 600px;
+
+}
+
+.hero__intro {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.hero__para {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 80%;
+    margin-bottom: 12px;
+}
+
+.hero__bttn {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 18px;
 }
