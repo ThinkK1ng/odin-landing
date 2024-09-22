@@ -7,3 +7,37 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* HEADER */
+.navbar {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 12px 0;
+
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 136px;
+    /* padding-right: 48px; */
+}
+
+.navbar__list {
+    display: flex;
+    padding-right: 136px;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1f2937;
+}
