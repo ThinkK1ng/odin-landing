@@ -70,6 +70,11 @@ h1 {
     margin-bottom: 12px;
 }
 
+.hero__para--big-text {
+    font-size: 20px;
+    color: #3882f6;
+}
+
 .hero__bttn {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -167,12 +172,19 @@ h1 {
     color: #f9faf8;
     width: 700px;
     height: 100px;
-    padding: 8px;
+    padding: 24px;
     border-radius: 10px;
 }
 
+.call__para {
+    display: inline-block;
+    /* width: 300px; */
+}
+
 .call__bttn {
-    float: right;
+    display: inline-block;
+    /* vertical-align: middle; */
+    /* float: right; */
     background-color: #3882f6;
     color: #f9faf8;
     border: 1px solid #f9faf8;
