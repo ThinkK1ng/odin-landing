@@ -28,7 +28,6 @@ h1 {
     font-size: 24px;
     color: #f9faf8;
     padding-left: 136px;
-    /* padding-right: 48px; */
 }
 
 .navbar__list {
@@ -40,7 +39,6 @@ h1 {
 }
 
 /* Hero */
-/* IN progress. Trying to get image to the side of content. */
 
 .hero {
     display: flex;
@@ -85,8 +83,6 @@ h1 {
 
 .hero__img--wrapper {
     width: 500px;
-    /* margin-left: 300px; */
-    /* margin-right: auto; */
 }
 
 .hero__img {
@@ -133,8 +129,6 @@ h1 {
 }
 
 .prize__img--wrapper {
-    /* display: flex; */
-    /* justify-content: center; */
     width: 100px;
     padding: 10px;
     margin: 0 auto;
@@ -170,25 +164,44 @@ h1 {
 .call__container {
     background-color: #3882f6;
     color: #f9faf8;
-    width: 700px;
-    height: 100px;
-    padding: 24px;
+    width: 900px;
+    height: 150px;
+    padding: 30px 70px;
     border-radius: 10px;
+}
+
+.call__intro {
+    margin-top: 16px;
 }
 
 .call__para {
     display: inline-block;
-    /* width: 300px; */
+    vertical-align: middle;
 }
 
 .call__bttn {
     display: inline-block;
-    /* vertical-align: middle; */
-    /* float: right; */
+    vertical-align: middle;
+    float: right;
     background-color: #3882f6;
     color: #f9faf8;
     border: 1px solid #f9faf8;
     padding: 4px 18px;
     margin: 0 24px 24px;
     border-radius: 5px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copy {
+    font-size: 16px;
 }
